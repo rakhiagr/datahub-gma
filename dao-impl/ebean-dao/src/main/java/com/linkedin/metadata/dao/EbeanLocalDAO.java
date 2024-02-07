@@ -90,7 +90,7 @@ public class EbeanLocalDAO<ASPECT_UNION extends UnionTemplate, URN extends Urn>
   }
 
   // Which approach to be used for record retrieval when inserting a new record
-  // See GCN-38382
+  // See GCN-38382 for more details
   private FindMethodology _findMethodology = FindMethodology.UNIQUE_ID;
 
   // true if metadata change will be persisted into the change log table (metadata_aspect)
